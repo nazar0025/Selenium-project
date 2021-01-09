@@ -21,13 +21,13 @@ public class tc1 {
 		  driver = new ChromeDriver();  //comment this to run in headless mode and uncomment the above
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		  driver.get("http://13.233.198.241:32768/gameoflife/");
+		  driver.get("http://3.15.172.244:73/website/");
 		
 		}
 		
 	  @Test
 	  public void verfiy() {
-		  driver.findElement(By.linkText("New Game")).click();
+		  driver.findElement(By.linkText("About Us")).click();
   }
 	  @AfterMethod
 	  public void close() {

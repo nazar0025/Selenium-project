@@ -21,7 +21,7 @@ public class tc1 {
 		  driver = new ChromeDriver();  //comment this to run in headless mode and uncomment the above
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		  driver.get("givemeurl");
+		  driver.get("http://3.15.172.244:9999/website/");
 		
 		}
 		
